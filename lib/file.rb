@@ -46,7 +46,7 @@ class Nutrition
 		return uni_med(@triceps)
         end
 	
-	def print_bicipital
+	def print_biceps
 		return uni_med(@bicipital)
         end
 	
@@ -68,11 +68,11 @@ class Nutrition
 			sum += li[i]
 			i += 1
 		end
-		return (sum/li).round(2)
+		return (sum/li.length).round(2)
 	end
 	
 	def imc
-		bla = (@weight/(@talla * @talla))
+		bla = (@weight/@height**2)
 		return bla.round(2)
 	end
 	
