@@ -72,8 +72,7 @@ class Nutrition
 	end
 	
 	def imc
-		bla = (@weight/@height**2)
-		return bla.round(2)
+		return (@weight/@height**2).round(2)
 	end
 	
 
