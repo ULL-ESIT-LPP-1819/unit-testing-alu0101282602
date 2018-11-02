@@ -5,20 +5,6 @@ require 'lib/file'
 class TestNutrition < Test::Unit::TestCase
     
     def setup
-        #Persona1
-        name = "Jose"
-        surname = "Fernandez"
-	sex = 1
-	age = 45
-        height = 1.7
-        weight = 70
-	waist = [0.4, 0.6]
-	hip = [0.5, 0.7]
-	tricipital = [0.4, 0.5, 0.7]
-        bicipital = [0.9, 0.8, 0.4]
-        subescapular = [0.5, 0.8, 0.6]
-        suprailiaco = [0.9, 0.8, 0.6]
-        arm = [0.4, 0.9]
 	@rob = Nutrition.new("Robin", "Steiger", 1, 23, 1.9, 73, [0.5, 0.7], [0.4, 0.8], [0.4, 0.5, 0.6], [0.9, 0.7, 0.5], [0.5, 0.6, 0.8], [0.9, 0.8, 0.5], [0.5, 0.9])
 	@julian = Nutrition.new("Julian", "Herrdum", 1, 30, 1.9, 70, [0.3, 0.5], [0.8, 0.4], [0.2, 0.4, 0.8], [0.9, 0.5, 0.1], [0.2, 0.6, 0.5], [0.4, 0.5, 0.6], [0.9, 0.8])
     end
