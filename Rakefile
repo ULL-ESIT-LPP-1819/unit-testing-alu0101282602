@@ -1,6 +1,6 @@
 task :default => :tu
 
-desc "Ejecutar las espectativas de la clase Nutri"
+desc "Execute Unit Test for class Nutrition"
 task :tu do
   sh "ruby -I. test/tc_file.rb"
 end
