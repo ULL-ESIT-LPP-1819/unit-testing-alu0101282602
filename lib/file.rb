@@ -77,7 +77,7 @@ class Nutrition
 	
 
 	def rcc
-	    return (@cintura/@cadera).round(2)
+	    return (print_hip/print_waist).round(2)
 	end
 	
 	def porc_grasa
